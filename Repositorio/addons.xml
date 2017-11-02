@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.Hrtv.Wizard"
+	   name="High Roller TV"
+	   version="1.0.3"
+	   provider-name="Gonzalez">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Wizard</summary>
+    <description>addons</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.HrtvWizard" name="[COLOR lime]High Roller TV[/COLOR] Repo" version="1.0.3" provider-name="Gonzalez">
+    <extension point="xbmc.addon.repository" name="HrtvWizard">
+        <info>https://raw.githubusercontent.com/tontixs/repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/tontixs/repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/tontixs/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>High Roller TV</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
