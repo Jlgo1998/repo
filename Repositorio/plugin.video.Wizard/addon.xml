@@ -9,9 +9,14 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
   </extension>
+      <extension point="xbmc.addon.repository" name="HrtvWizard">
+        <info>https://raw.githubusercontent.com/tontixs/repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/tontixs/repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/tontixs/master/Repositorio/</datadir>
+    </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Wizard</summary>
-    <description>addons</description>
+    <description>High Roller TV</description>
     <platform>all</platform>
   </extension>
 </addon>
